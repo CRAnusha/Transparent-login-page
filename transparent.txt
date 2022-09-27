@@ -1,0 +1,23 @@
+<!doctype html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Input Form UI Design</title>
+		<link rel="stylesheet" href="transparent.css">
+	</head>
+	<body>
+		<div class="box">
+		<h2>Login</h2>
+		<form>
+			<div class="inputBox" style="color:whitesmoke;" "font-size: 700;">
+			<label for="username">Username:</label>
+			<input type="text" name="" required=""><br><br>
+		</div>
+			<div class="inputBox" style="color:whitesmoke;" "font-size: 700;">
+			<label for="password">Password:</label>
+			<input type="password" name="" required=""><br><br>
+		</div>
+		<input type="submit"  name="" value="submit">
+
+	</body>
+	</html>

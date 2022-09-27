@@ -1,0 +1,55 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+	background:url("https://preview.redd.it/sngvx8ebp83z.jpg?auto=webp&s=14a2c672b866ca70137761584a00feabb7e5f0c1") ;
+background-size: cover;
+}
+.box
+{
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width:400px;
+	padding:40px ;
+	background:rgba(0,0,0,.8);
+	box-sizing: border-box;
+	box-shadow:0 15px 25px rgba(0,0,0,.5);
+	border-radius: 10px;
+	
+
+}
+.box h2
+{
+	margin: 0 0 30px;
+	padding: 0;
+	color:#fff;
+	text-align: center;
+
+}
+.box .inputbox
+{
+	position: relative;
+}
+
+.box .inputbox input
+{
+width: 100%;
+padding:10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+boder: none;
+background: transparent;
+}
+.box .inputbox label
+{
+width: 100%;
+padding:10px 0;
+font-size: 16px;
+color: #fff;
+margin-bottom: 30px;
+boder: none;
+background: transparent;
+}
